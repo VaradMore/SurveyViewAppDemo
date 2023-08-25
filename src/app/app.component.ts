@@ -28,6 +28,7 @@ export class AppComponent implements OnInit {
   alertResults (sender) {
     const results = JSON.stringify(sender.data);
     alert(results);
+    console.log(results);
     // saveSurveyResults(
     //   "https://your-web-service.com/" + SURVEY_ID,
     //   sender.data
